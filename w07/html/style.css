@@ -59,7 +59,7 @@ h2 {
     }
 }
 
-@media(max-width: 900px) {
+@media(mim-width: 601px) and (max-width: 900px) {
     body {
         background-color: brown;
     }
