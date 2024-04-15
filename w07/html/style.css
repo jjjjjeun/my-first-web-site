@@ -34,7 +34,7 @@ h2 {
 body {
     background-color: antiquewhite;
 }
-@media(max-width: 500px) {
+@media(max-width: 700px) {
     #grid {
         display: block;
     }
@@ -51,6 +51,10 @@ body {
     h1 {
         border-bottom: none;
         font-size: 25px;
+    }
+    body {
+        background-color: black;
+        color: white;
     }
 }
 @media(max-width: 900px) {
