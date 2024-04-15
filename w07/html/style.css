@@ -9,32 +9,38 @@ h1 {
     color: tan;
     font-style: oblique;
 }
-#grid ol {
-    width: 100px;
+
+#grid ol,
+#grid p {
     margin: 1px;
     padding: 20px;
 }
+
+#grid ol {
+    width: 100px;
+}
+
 #grid p {
     border-left: 2px solid tan;
     width: 90%;
-    margin: 1px;
-    padding: 20px;
 }
-body{
+
+body {
     margin: 1px;
+    background-color: antiquewhite;
 }
+
 #grid {
     display: grid;
     grid-template-columns: 150px 1fr;
 }
+
 h2 {
     font-size: 40px;
     font-style: oblique;
     color: red;
 }
-body {
-    background-color: antiquewhite;
-}
+
 @media(max-width: 900px) {
     #grid {
         display: block;
@@ -42,8 +48,6 @@ body {
     #grid p {
         border-left: none;
         width: 100%;
-        margin: 1px;
-        padding: 20px;
     }
     h1 {
         border-bottom: none;
@@ -54,12 +58,8 @@ body {
         color: white;
     }
 }
+
 @media(max-width: 1200px) {
-    #grid{ border-left: none;
-        width: 90%;
-        margin: 1px;
-        padding: 20px;
-    }
     body {
         background-color: brown;
     }
