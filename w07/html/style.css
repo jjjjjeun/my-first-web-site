@@ -41,7 +41,7 @@ h2 {
     color: red;
 }
 
-@media(max-width: 900px) {
+@media(max-width: 600px) {
     #grid {
         display: block;
     }
@@ -59,7 +59,7 @@ h2 {
     }
 }
 
-@media(max-width: 1200px) {
+@media(max-width: 900px) {
     body {
         background-color: brown;
     }
