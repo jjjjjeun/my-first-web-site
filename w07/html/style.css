@@ -44,10 +44,6 @@ body {
         margin: 1px;
         padding: 20px;
     }
-    
-    #grid ol {
-        border-right: none;
-    }
     h1 {
         border-bottom: none;
         font-size: 25px;
@@ -57,18 +53,11 @@ body {
         color: white;
     }
 }
-@media(max-width: 1000px) {
-    #grid {
-        display: block;
-    }
-    #grid p{
-        border-left: none;
+@media(max-width: 1200px) {
+    #grid{ border-left: none;
         width: 90%;
         margin: 1px;
         padding: 20px;
-    }
-    #grid ol {
-        border-right: none;
     }
     h1 {
         border-bottom: none;
@@ -77,5 +66,4 @@ body {
     body {
         background-color: brown;
     }
-    
 }
