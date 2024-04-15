@@ -51,7 +51,7 @@ h2 {
     }
     h1 {
         border-bottom: none;
-        font-size: 25px;
+        font-size: 40px;
     }
     body {
         background-color: black;
@@ -59,8 +59,10 @@ h2 {
     }
 }
 
-@media(mim-width: 601px) and (max-width: 900px) {
+@media(min-width: 601px) and (max-width: 900px) {
     body {
         background-color: brown;
     }
+    h1 {
+        font-size: 60px;
 }
